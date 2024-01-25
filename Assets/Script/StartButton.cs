@@ -10,3 +10,4 @@ public class StartButton : MonoBehaviour
         SceneManager.LoadScene(1);
     }
 }
+
