@@ -5,9 +5,19 @@ using UnityEngine.SceneManagement;
 
 public class StartButton : MonoBehaviour
 {
+    public GameObject tutorialCanvas;
+
     public void OnStartButtonClicked()
     {
         SceneManager.LoadScene(1);
+    }
+
+    public void TutorialButton()
+    {
+        if (tutorialCanvas != null)
+        {
+            tutorialCanvas.SetActive(true);
+        }
     }
 }
 
